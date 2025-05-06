@@ -7,7 +7,6 @@ Develop an educational robot to teach children programming concepts through a fu
 - **ESP32** for processing and communication.  
 - **DC motors with encoders** for precise movement.  
 - **Ultrasonic sensor** for obstacle detection.  
-- **Gripper mechanism** for object interaction.  
 - **Flutter app** for cross-platform control and programming.
 
 ---
@@ -19,7 +18,6 @@ Develop an educational robot to teach children programming concepts through a fu
 - Motor driver (e.g., L298N, VNH5019)  
 - DC motors with encoders (×2)  
 - Ultrasonic sensor (e.g., HC-SR04)  
-- Servo motor (for gripper control)  
 - LiPo battery with Battery Management System (BMS)  
 - Voltage regulator or boost converter  
 - Bluetooth module (optional, ESP32 has built-in Bluetooth)  
@@ -50,7 +48,6 @@ Develop an educational robot to teach children programming concepts through a fu
    - Mount the ESP32 board centrally.  
    - Connect the motors to the motor driver and wire the driver to the ESP32.  
    - Install the ultrasonic sensor on the front, ensuring an unobstructed view.  
-   - Position the servo and gripper mechanism at the front.  
 
 4. **Power System:**  
    - Connect the LiPo battery to the BMS and use a voltage regulator to provide stable power to the ESP32 and motors.  
@@ -61,8 +58,7 @@ Develop an educational robot to teach children programming concepts through a fu
 
 - **Motors:** Connect to motor driver → Motor driver to ESP32.  
 - **Encoders:** Connect to ESP32 digital pins.  
-- **Ultrasonic Sensor:** Trig and Echo pins → ESP32 digital pins.  
-- **Servo Motor:** Signal pin → ESP32 PWM pin.  
+- **Ultrasonic Sensor:** Trig and Echo pins → ESP32 digital pins.
 - **Power:** LiPo battery → BMS → Voltage regulator → ESP32 VIN pin.  
 
 ---
